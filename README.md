@@ -3,7 +3,7 @@
 I am not a web developer. I would appreciate your support and help me to complete the webpage. Any recommendations on the webpage design & styling are welcome.
 
 The present issue:
-1. A background picture can't be resized according to the web browser size.
+1. A background picture cannot be resized automatically to fit the web browser's size.
 2. No gray boxes for buttons to click on
 
 ToDo:
