@@ -104,8 +104,12 @@ section {
 }
 
 .home {
+
+    width: 80%;
+    margin: 0 auto;
+
     position: relative;
-    width: 1000%;
+
     height: 100vh;
     display: flex;
     align-items: center;
@@ -122,6 +126,8 @@ section {
 .home-text h1 {
     font-size: var(--big-font);
     margin: 23px 0;
+    background-color: #111;
+    padding: 15px;
 }
 
 .home-text p {
@@ -129,4 +135,12 @@ section {
     font-weight: 400;
     color: #c3c3c3;
     line-height: 30;
+    background-color: #111;
+
+}
+
+.transparent {
+    background: rgba(0, 0, 0, 0.6) !important;
+    padding: 15px;
+    color: #fff;
 }
