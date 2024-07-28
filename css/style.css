@@ -13,6 +13,7 @@
     --bg-color-blue: #A6D5FE;
     --text-color: #fff;
     --main-color: #0e46d588;
+    --secondary-color: #0000007b;
 
     --big-font: 7rem;
     --p-font: 1.1rem;
@@ -48,17 +49,25 @@ header {
     padding: 32px 15%;
     background: transparent;
     transition: all ease .45s;
-
 }
 
 .logo {
+    /*color: var(--text-color);*/
     color: var(--text-color);
     font-size: 41px;
     font-weight: 600;
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  Adds a darker shadow effect */
+    /*text-shadow: 
+    -1px -1px 0 #0000007b,  /* top-left shadow */
+    /*1px -1px 0 #0000007b,   /* top-right shadow */
+    /*-1px 1px 0 #0000007b,   /* bottom-left shadow */
+    /*1px 1px 0 #0000007b;    /* bottom-right shadow */
 }
 
 .logo span {
     color: var(--main-color);
+    /*color: var(--secondary-color);*/
+    
 }
 
 .navbar {
@@ -74,27 +83,34 @@ header {
 }
 
 .navbar a:hover {
-    color: var(--main-color);
+    /*color: var(--main-color);*/
+    color: var(--secondary-color);
 }
 
 .navbar a.active {
     color: var(--main-color);
 }
 
-
-
-
-
-
+.home-link {
+    background-color: #4068cf36; /* Background color */
+    padding: 10px 15px; /* Padding inside the box */
+    display: inline-block; /* Makes the box fit the text size */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}
+.contact-link {
+    background-color: rgba(0, 0, 0, 0.3); /* Background color */
+    padding: 10px 15px; /* Padding inside the box */
+    display: inline-block; /* Makes the box fit the text size */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}
 
 .home {
 
-    width: 80%;
+    width: 40%;  /* Halve the width from 80% to 40% for the gray box */
     margin: 0 auto;
     margin-left: 5%;
     margin-top: 15%;
     margin-right: 30%;
-
 
     align-items: center;
     justify-content: space-between;
@@ -104,7 +120,6 @@ header {
 .home-img img {
     width: 100%;
     height: 100%;
-
 }
 
 .home-text h1 {
@@ -125,6 +140,14 @@ header {
 
 .transparent {
     background: rgba(0, 0, 0, 0.6) !important;
+    /*background: #0e46d588;*/
     padding: 15px;
     color: #fff;
+    border-radius: 5px; /* Adds rounded corners */
+}
+
+/* Specific styling for LinkedIn icon */
+.social-icons a.linkedin i{
+    font-size: 36px;
+    color: var(--main-color);
 }
