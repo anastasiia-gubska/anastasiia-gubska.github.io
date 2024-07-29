@@ -151,3 +151,73 @@ header {
     font-size: 36px;
     color: var(--main-color);
 }
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    header {
+        padding: 16px 10%; /* Reduces padding for smaller screens */
+    }
+    
+    .logo {
+        font-size: 28px; /* Decreases font size for the logo */
+    }
+    
+    .navbar a {
+        margin: 0 15px; /* Adjusts margins for navigation links */
+        font-size: 1rem; /* Decreases font size for navigation links */
+    }
+
+    .home {
+        width: 80%; /* Increases width to fit better on smaller screens */
+        margin-top: 10%; /* Adjusts top margin */
+        margin-right: 10%; /* Adjusts right margin */
+    }
+
+    .home-text h1 {
+        font-size: 3rem; /* Decreases font size for heading */
+    }
+
+    .home-text p {
+        font-size: 1rem; /* Decreases font size for paragraph */
+        line-height: 24px; /* Adjusts line height */
+    }
+    
+    .social-icons a.linkedin i {
+        font-size: 28px; /* Decreases font size for LinkedIn icon */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column; /* Stacks header items vertically */
+        padding: 8px 5%; /* Further reduces padding */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stacks navbar links vertically */
+        align-items: center; /* Centers navbar links */
+    }
+
+    .navbar a {
+        margin: 5px 0; /* Adjusts margins for navbar links */
+    }
+
+    .home {
+        width: 90%; /* Increases width to fit better on smaller screens */
+        margin-top: 20%; /* Further adjusts top margin */
+        margin-right: 5%; /* Further adjusts right margin */
+    }
+
+    .home-text h1 {
+        font-size: 2.5rem; /* Further decreases font size for heading */
+    }
+
+    .home-text p {
+        font-size: 0.9rem; /* Further decreases font size for paragraph */
+        line-height: 20px; /* Further adjusts line height */
+    }
+    
+    .social-icons a.linkedin i {
+        font-size: 24px; /* Further decreases font size for LinkedIn icon */
+    }
+}
