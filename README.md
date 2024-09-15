@@ -1,3 +1,7 @@
+# Updates:
+# 15/09/2024
+Added scrolling page and removed links to additional html pages.
+
 # Webpage for Anastasiia
 
 I am not a web developer. I would appreciate your support and help me to complete the webpage. Any recommendations on the webpage design & styling are welcome.
