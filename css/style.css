@@ -1,3 +1,80 @@
+
+/* Add scrolling effect */
+section {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text size instead of h1 */
+    font-size: 100px;
+    color: #0000;
+    font-weight: 700;
+}
+
+/* Header text color */
+h1{
+    color: rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 4px #000;
+}
+
+/* Section id - evety other slide - same color
+section:nth-child(odd){
+    background: #323946;
+
+}*/
+
+
+#about{
+
+    padding: 32px 15%;
+
+    flex-direction: column;
+    top: 0;
+    background-color: rgba(236, 247, 253, 0.5); /* Light blue with 50% opacity */
+    color: #000; /* Ensure text color is fully opaque */
+}
+#about h1{
+    font-size: 80px;
+    margin-bottom: 20px; /* Add a space between h1 and p */
+}
+#about h2{
+
+    font-size: 42px;
+}
+
+
+#work{
+    background-color: rgba(0, 124, 210, 0.5); /* #007cd2 with 50% opacity */
+    color: #000; /* Ensure text color is fully opaque */
+}
+
+#contact{
+    flex-direction: column;
+    color: #000; /* Ensure text color is fully opaque */
+    /*box-shadow: 0px 10px 10px rgb(211,1,138);*/
+}
+
+#contact h1{
+    font-size: 52px;
+}
+
+/* Background color for section one */
+.section_two{
+    background-color: rgb(211,1,138);
+}
+
+
+.socialIcons {
+    position: left;
+}
+/* Social Icons size and transparency % */
+.socialIcons a i{
+    font-size: 0.8em;
+    opacity: 0.9;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -33,6 +110,7 @@ body {
     background-size: cover;
     /* Pick a solid background color that will be displayed while the background image is loading */
     background-color: #464646;
+
 }
 
 
@@ -51,17 +129,30 @@ header {
     transition: all ease .45s;
 }
 
+/* Anastasiia Gubska text design */
 .logo {
     /*color: var(--text-color);*/
     color: var(--text-color);
     font-size: 41px;
     font-weight: 600;
-    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  Adds a darker shadow effect */
+    text-shadow: 2px 2px 4px rgba(64, 104, 207, 0.21); /*rgba color is equivalent to #4068cf36;
+    /*rgba(24, 16, 119, 0.5);  /*Adds a darker shadow effect */
     /*text-shadow: 
     -1px -1px 0 #0000007b,  /* top-left shadow */
     /*1px -1px 0 #0000007b,   /* top-right shadow */
     /*-1px 1px 0 #0000007b,   /* bottom-left shadow */
     /*1px 1px 0 #0000007b;    /* bottom-right shadow */
+}
+
+/* SRE/DevOps text design */
+.logo .role {
+    font-size: 32px; 
+    font-weight: 500; /*400*/
+    /*color: #000000; /*#4068cf; /* text color for the role */
+    margin-top: 5px;
+    color: #0000007b; /* rgba(0, 0, 0, 0.3);*/
+    text-shadow: 1px 1px 1px #000;
+    
 }
 
 .logo span {
@@ -91,12 +182,16 @@ header {
     color: var(--main-color);
 }
 
+/* Dark color when an arrow points on navigation bar */
 .home-link {
     background-color: #4068cf36; /* Background color */
     padding: 10px 15px; /* Padding inside the box */
     display: inline-block; /* Makes the box fit the text size */
     border-radius: 5px; /* Optional: Adds rounded corners */
 }
+
+/* Contact button design */
+
 .contact-link {
     background-color: rgba(0, 0, 0, 0.3); /* Background color */
     padding: 10px 15px; /* Padding inside the box */
@@ -104,17 +199,22 @@ header {
     border-radius: 5px; /* Optional: Adds rounded corners */
 }
 
-.home {
+/* Text on the Welcome page */
+.home.transparent {
 
     width: 40%;  /* Halve the width from 80% to 40% for the gray box */
     margin: 0 auto;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 15%;
     margin-right: 30%;
 
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+
+    font-size: 24px; /* Text size */
+    line-height: 2; /* Space between lines of text */
+
 }
 
 .home-img img {
@@ -144,10 +244,4 @@ header {
     padding: 15px;
     color: #fff;
     border-radius: 5px; /* Adds rounded corners */
-}
-
-/* Specific styling for LinkedIn icon */
-.social-icons a.linkedin i{
-    font-size: 36px;
-    color: var(--main-color);
 }
