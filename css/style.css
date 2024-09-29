@@ -141,26 +141,26 @@ section:nth-child(odd){
 
 }
 
-#speaker {
+#speaking {
     width: 50%; /* Set the width to cover half of the page */
     margin-left: 0.5em; /* Remove any default margins */
     color: #000; /* Ensure text color is fully opaque */
     text-align: left; /* Align the text to the left */
 }
 
-#speaker h2{
+#speaking h2{
     font-size: 0.3em; /*font-size: 32px;*/
     width: 40%; /* Set the width to cover half of the page */
     margin-bottom: 20px; /* Add a space between h2 and h3 */
 }
 
-#speaker h3{
+#speaking h3{
     font-size: 0.2em;
     margin-bottom: 20px; /* Add a space between h2 and h3 */
 
 }
 
-#speaker p{
+#speaking p{
     font-size: 0.2em;
     font-weight: 400; /* Thinner text (you can adjust this value as needed) */
     margin-bottom: 20px; /* Add a space between p and h2/h3 */
@@ -171,7 +171,7 @@ section:nth-child(odd){
     color: #000; /* Ensure text color is fully opaque */
 
 }
-#speaker ul{
+#speaking ul{
     font-size: 0.2em;
     font-weight: 400; /* Thinner text (you can adjust this value as needed) */
     margin-bottom: 20px; /* Add a space between p and h2/h3 */
