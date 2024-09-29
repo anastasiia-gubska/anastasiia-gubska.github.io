@@ -17,7 +17,7 @@ section {
 h1{
     color: rgba(0, 0, 0, 0.3);
     text-shadow: 1px 1px 4px #000;
-    font-size: 0.5em;
+    font-size: 0.3em;
     /*margin-bottom: 20px; Add a space between h1 and p */
     text-align: left; /* Align the text to the left */
 }
@@ -27,6 +27,13 @@ section:nth-child(odd){
     background: #323946;
 
 }*/
+
+#work p{
+    font-size: 0.5em; /*font-size: 32px;*/
+    /*width: 40%; /* Set the width to cover half of the page */
+    margin-bottom: 20px; /* Add a space between h2 and h3 */
+}
+
 #home{
     width: 50%;
     margin-left: 0.5em; /*Add a space from the left to the text */
@@ -43,10 +50,10 @@ section:nth-child(odd){
     color: #000; /* Ensure text color is fully opaque */
 }
 #about h1{
-    font-size: 40px;
+
+    /*font-size: 40px;*/
     margin-bottom: 20px; /* Add a space between h1 and p */
     text-align: left; /* Align the text to the left */
-   
 }
 #about h2{
     font-size: 0.3em; /*font-size: 32px;*/
@@ -72,11 +79,31 @@ section:nth-child(odd){
     color: #000; /* Ensure text color is fully opaque */
 }
 
+#community{
+    width: 50%; /* Set the width to cover half of the page */
+    margin-left: 0.5em; /* Remove any default margins */
+    color: #000; /* Ensure text color is fully opaque */
+}
+#community h2{
+    font-size: 0.3em; /*font-size: 32px;*/
+    width: 40%; /* Set the width to cover half of the page */
+    margin-bottom: 20px; /* Add a space between h2 and h3 */
+
+}
+#community ul{
+    font-size: 0.2em;
+    font-weight: 400; /* Thinner text (you can adjust this value as needed) */
+    margin-bottom: 20px; /* Add a space between p and h2/h3 */
+}
+
 #mentoring {
     width: 50%; /* Set the width to cover half of the page */
     margin-left: 0.5em; /* Remove any default margins */
 }
 
+#mentoring h1{
+    margin-bottom: 20px;
+}
 #mentoring h2{
     font-size: 0.3em; /*font-size: 32px;*/
     width: 40%; /* Set the width to cover half of the page */
@@ -156,15 +183,18 @@ section:nth-child(odd){
 }
 
 #contact{
-
-    font-size: 14px;
+    font-size: 2em;
     flex-direction: column;
     color: #000; /* Ensure text color is fully opaque */
     /*box-shadow: 0px 10px 10px rgb(211,1,138);*/
+    width: 40%; /* Set the width to cover half of the page */
+    margin-bottom: 20px; /* Add a space between h2 and h3 */
 }
 
-#contact h1{
-    font-size: 52px;
+
+#contact a{
+    display: inline-block;
+    padding: 5px 15px; /* Adjust the values as needed */
 }
 
 /* Background color for section one */
