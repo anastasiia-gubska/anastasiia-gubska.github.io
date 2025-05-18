@@ -1,4 +1,3 @@
-
 /* Add scrolling effect */
 section {
 
@@ -16,7 +15,7 @@ section {
 /* Header text color */
 h1{
     color: rgba(0, 0, 0, 0.3);
-    text-shadow: 1px 1px 4px #000;
+    /*text-shadow: 1px 1px 4px #000;*/
     font-size: 0.3em;
     /*margin-bottom: 20px; Add a space between h1 and p */
     text-align: left; /* Align the text to the left */
@@ -48,6 +47,9 @@ section:nth-child(odd){
     top: 0;*/
     /*background-color: rgba(236, 247, 253, 0.5)*/ /* Light blue with 50% opacity */
     color: #000; /* Ensure text color is fully opaque */
+    /*color:    #001F54*/
+
+
 }
 #about h1{
 
@@ -283,12 +285,12 @@ header {
 
 /* SRE/DevOps text design */
 .logo .role {
-    font-size: 32px; 
+    font-size: 28px; 
     font-weight: 500; /*400*/
     /*color: #000000; /*#4068cf; /* text color for the role */
     margin-top: 5px;
-    color: #0000007b; /* rgba(0, 0, 0, 0.3);*/
-    text-shadow: 1px 1px 1px #000;
+    color: #000000e1; /* rgba(0, 0, 0, 0.3);*/
+    /*text-shadow: 1px 1px 1px #000;*/
     
 }
 
