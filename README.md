@@ -1,4 +1,7 @@
 # Updates:
+# 18/05/2025
+Added new talks and a Blog(Soon) widget.
+
 # 15/09/2024
 Added scrolling page and removed links to additional html pages.
 
